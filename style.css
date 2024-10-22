@@ -1,0 +1,49 @@
+.container {
+    width: 400px;
+    height: 550px;
+    background-color: #4408d2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    padding: 30px;  
+    border-radius: 10px;
+    color:white;
+    margin: 100px auto; 
+}
+p {
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, sans-serif;
+    width: 100%;
+    margin-bottom: 15px; 
+}
+h1 {
+    color: white;
+    align-self: center; 
+    margin-bottom: 20px; 
+}
+input {
+    height: 33px;
+    width: 100%;
+    background-color: blue;
+    font-size: 20px;
+    color: #031926;
+    padding: 7px;
+    margin-top: 5px; 
+}
+#btn {
+    color: #031926;
+    max-width: fit-content;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 20px; 
+    align-self: center; 
+}
+span {
+    font-weight: 20px; 
+    color: violet;
+}
+::placeholder {
+    color: #031926;
+}
